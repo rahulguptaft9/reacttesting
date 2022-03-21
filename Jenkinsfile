@@ -4,7 +4,7 @@ pipeline {
   tools {nodejs "node"}
 
 	environment{
-	registry="mrchelsea/react-testing"
+	registry="mrchelsea/react"
 	registryCredential='dockerhub'
 	dockerImage=''
 	}
